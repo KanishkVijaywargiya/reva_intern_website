@@ -1,0 +1,11 @@
+1].** megamenu **...............A mega menu is a dropdown triggered by hovering over a link. 
+This shows all options in one main, mega-panel and groups related topics into categories.
+A mega menu is a drop down that is triggered by hovering over a link or defined area.
+
+2].** ms-animation ** .................animation-delay value is defined in seconds (s) or milliseconds (ms).
+
+3].** o-animation **...............onScroll animation
+
+4].** z-index **..............The z-index property specifies the stack order of an element. 
+An element with greater stack order is always in front of an element with a lower stack order. 
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).

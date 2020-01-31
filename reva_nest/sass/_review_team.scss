@@ -1,0 +1,114 @@
+/**************** review_part css start ****************/
+.review_part {
+  position: relative;
+
+  .slick-center {
+    margin-bottom: 25px;
+    opacity: 1 !important;
+    width: 150px !important;
+    margin-top: 0px !important;
+
+    @media #{$breakpoint-sm} {
+     overflow: hidden;
+    }
+
+    @media #{$breakpoint-lg} {}
+
+    @media #{$breakpoint-xs-landscape} {}
+
+    @media #{$breakpoint-md} {}
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .slick-list {
+    padding: 0px !important;
+  }
+
+  @media #{$breakpoint-sm} {
+    overflow: hidden;
+  }
+
+  @media #{$breakpoint-lg} {}
+
+  @media #{$breakpoint-xs-landscape} {}
+
+  @media #{$breakpoint-md} {}
+}
+
+.client_review_text {
+  .quate_icon {
+    max-width: 43px;
+    max-height: 38px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 26px 0px 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: $fonts;
+    margin-bottom: 5px;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 400;
+
+  }
+}
+
+// Styling the default Slick dots
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 50px 0px 0px;
+
+  list-style-type: none;
+
+  li {
+    margin: 0px 8px;
+  }
+
+  button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    text-indent: -9999px;
+  }
+}
+
+.slider-nav-thumbnails .slick-slide {
+  opacity: 0.5;
+  margin: 54px 0px 20px;
+  @media #{$breakpoint-sm}{
+
+  }
+  @media #{$breakpoint-lg}{
+  
+  }
+  @media #{$breakpoint-xs-landscape}{
+    margin: 54px 40px 20px;
+  }
+  @media #{$breakpoint-md}{
+  
+  }
+  
+  img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

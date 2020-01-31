@@ -1,0 +1,27 @@
+code{
+    background: #EAF0F1;
+    border-radius: 6px;
+    color: #000;
+    display: block;
+    /* font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier; */
+    padding: 24px 15px;
+    text-align: center;
+    /* margin: 0 1.5% 24px 1.5%; */
+  }
+  section{
+    margin: 0 1.5% 24px 1.5%;
+  }
+  .map-responsive{
+    overflow: hidden;
+    padding-bottom: 56%;
+    position: relative;
+    height: 0;
+  }
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
